@@ -31,7 +31,7 @@ let Base;
 let Upper_Arm;
 let Medium_Arm;
 let Lower_Arm;
-loader.load('/src/assets/Robotic_Arm.glb', (gltf) => {
+loader.load('./assets/Robotic_Arm.glb', (gltf) => {
     const model = gltf.scene;
     Lower_Arm = model.getObjectByName("Arm_3");
     Medium_Arm = model.getObjectByName("Arm_2");
