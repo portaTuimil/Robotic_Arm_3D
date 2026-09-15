@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+canvas{
+    width: 20vw;
+    height: 20vh;
+    pointer-events: none;
+}
+
+body{
+    min-height: 200vh;
+    gap: 10px;
+}
+
+.wrapper{
+    display: flex;
+}
+
+div{
+    background: red;
+    height: 1000px;
+    width: 2000px;
+}

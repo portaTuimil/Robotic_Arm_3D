@@ -1,0 +1,17 @@
+{
+  "name": "robotic_arm",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "three": "^0.185.1",
+    "vite": "^8.1.5"
+  }
+}
