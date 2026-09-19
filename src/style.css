@@ -5,22 +5,16 @@
 }
 
 canvas{
-    width: 20vw;
-    height: 20vh;
+    width: 100vw;
+    height: 100vh;
     pointer-events: none;
 }
 
 body{
-    min-height: 200vh;
+    min-height: 100vh;
     gap: 10px;
 }
 
 .wrapper{
     display: flex;
-}
-
-div{
-    background: red;
-    height: 1000px;
-    width: 2000px;
 }
