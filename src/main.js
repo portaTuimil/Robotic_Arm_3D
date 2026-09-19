@@ -74,8 +74,8 @@ const raycaster = new THREE.Raycaster();
 const baseScreenPos = new THREE.Vector3();
 
 window.addEventListener('mousemove', handleMoves);
-window.addEventListener('touchstart', handleMoves);
-window.addEventListener('touchmove', handleMoves);
+window.addEventListener('touchstart', handleMoves, { passive: false });
+window.addEventListener('touchmove', handleMoves, { passive: false });
 
 function handleMoves(e) {
   if (!Base || !camera) return;
